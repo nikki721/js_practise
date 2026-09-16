@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+main {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+}
+.image_container {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.image_container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.content {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.content .burger {
+  position: absolute;
+
+  top: 24%;
+
+  left: 15%;
+
+}
+
+.content .leaf {
+  position: absolute;
+  top: 17%;
+
+  left: 34%;
+
+}
+.content .tomato1 {
+  position: absolute;
+  top: 61%;
+
+  left: 20%;
+
+}
+.content .momo {
+  position: absolute;
+  top: 35%;
+
+  left: 65%;
+
+}
+.content .tomato2 {
+  position: absolute;
+  top: 19%;
+  
+  left: 65%;
+  
+}
+.content .pizza {
+  position: absolute;
+  top: 58%;
+
+  left: 68%;
+ 
+}
+.burger {
+  width: 280px;
+
+}
+
+.pizza {
+  width: 240px;
+
+}
+
+.momo {
+  width: 260px;
+  
+}
+
+.text-content {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-bottom: 60px;
+   h1{
+    font-size: 64px;
+    line-height: 60px;
+    color: red;
+   }
+   p{
+    font-size: 24px;
+    line-height: 32px;
+    color:black;
+    font-weight: bold;
+    margin: 20px auto;
+    max-width: 550px;
+   }
+}
+.info-icon{
+    height: 60px;
+    width: 50px;
+    object-fit: contain;
+}
+.info-content{
+    display: flex;
+    margin-top: center;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    padding: 15px;
+    background-color: blanchedalmond;
+    border-radius: 15px;
+    box-shadow: 0 8px 32px rosybrown;
+}
+.info-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    .info-number{
+        color: brown;
+    }
+}
+@media (max-width: 768px) {
+  .text-content h1 {
+    font-size: 36px;
+    line-height: 40px;
+  }
+
+  .text-content p {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+
+
